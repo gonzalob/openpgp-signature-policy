@@ -3,8 +3,8 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        <base href="https://www.gonz0.com.ar/gpg/signature-policy-2017_1.html" />
-        <meta http-equiv="author" content="Gonzalo Bermúdez"/>
+        <base href="https://www.gonz0.com.ar/gpg/signature-policy-2019_1.html" />
+        <meta http-equiv="author" content="Gonzalo Berm&uacute;dez"/>
         <style type="text/css">
             body {
                 display: block;
@@ -79,7 +79,7 @@
     </head>
     <body>
         <h1>Message Signing Policy for Gonzalo Berm&uacute;dez</h1>
-        <p>v2017.1 - Apr 3, 2017</p>
+        <p>v2019.1 - Apr 20, 2019</p>
         <h2>Policy statement</h2>
         <p>
             As of 2006-07-24, I'm signing all outgoing email with 
@@ -87,11 +87,14 @@
             my OpenPGP key</a> (email address removed to prevent spam):
         </p>
         <pre class="openpgpkey">
-pub   4096R/E2FC4825 2006-07-24 [expires: 2081-01-01]
+pub   rsa4096/0x31E5FE63E2FC4825 2006-07-24 [SC] [expires: 2081-01-01]
       Key fingerprint = 607D 555B 2B11 B1B3 916A  CBDE 31E5 FE63 E2FC 4825
-uid                  Gonzalo Berm&uacute;dez &lt;&gt;
-uid                  [jpeg image of size 1346]
-sub   2048R/0A267238 2009-07-11 [expires: 2019-06-01]
+uid                   [ultimate] Gonzalo Berm&uacute;dez
+uid                   [ultimate] [jpeg image of size 1346]
+uid                   [ultimate] Gonzalo Berm&uacute;dez
+sub   rsa2048/0xFAD48D16B6984691 2017-02-11 [A] [expires: 2081-01-01]
+sub   rsa2048/0x03621B410C71A6B4 2019-04-20 [E] [expires: 2020-06-01]
+sub   rsa2048/0xCE73F69A01041AE0 2019-04-20 [S] [expires: 2029-06-01]
         </pre>
         <p>
             These signatures mean only that it's very probably me who wrote 
@@ -115,6 +118,14 @@ sub   2048R/0A267238 2009-07-11 [expires: 2019-06-01]
         </p>
         <h2>Version history</h2>
         <dl>
+            <dt>
+                Version 2019.1, 2019-04-20 [ <a
+                    href="https://www.gonz0.com.ar/gpg/signature-policy-2019_1.html">
+                link</a> ]
+            </dt>
+            <dd>
+                Issued new signing key 0xCE73F69A01041AE0 since expiration date on prior key was nearing.
+            </dd>
             <dt>
                 Version 2017.1, 2017-04-03 [ <a
                     href="https://www.gonz0.com.ar/gpg/signature-policy-2017_1.html">
@@ -204,11 +215,12 @@ sub   2048R/0A267238 2009-07-11 [expires: 2019-06-01]
         </dl>
         <p>
             This policy can and should be checked against <a 
-                href="https://www.gonz0.com.ar/gpg/signatures/signature-policy-2017_1.html.asc">
-            its detached signature</a>.
+                href="https://www.gonz0.com.ar/gpg/signatures/signature-policy-2019_1.html.asc">
+            its detached signature</a>, issued by the master key since the signing key 
+            is affected.
         </p>
         <h2><a id="license"></a>License</h2>
-        <p>Copyright (c) 2006-2017 Gonzalo Berm&uacute;dez</p>
+        <p>Copyright (c) 2006-2019 Gonzalo Berm&uacute;dez</p>
         <p>
             Permission is granted to copy, distribute and/or modify this 
             document under the terms of the 
@@ -220,7 +232,7 @@ sub   2048R/0A267238 2009-07-11 [expires: 2019-06-01]
                 <img src="https://www.w3.org/Icons/valid-xhtml10"
                      alt="Valid XHTML 1.0 Strict" />
             </a>
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://www.gonz0.com.ar/gpg/signature-policy-2017_1.html">
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://www.gonz0.com.ar/gpg/signature-policy-2019_1.html">
                 <img src="https://jigsaw.w3.org/css-validator/images/vcss" 
                      alt="Valid CSS!" />
             </a>
